@@ -1,0 +1,64 @@
+.reportCardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  border: 0.18em solid #30acc5;
+  justify-content: space-around;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.reportCard {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+}
+
+.reportAvatar {
+  width: 10%;
+  margin: 2px auto;
+}
+
+.reportCardContainer:hover {
+  background-color: #ace5f3;
+}
+
+.reportCardContainer.selected {
+  background-color: #ace5f3;
+}
+
+@media (max-width: 1024px) {
+  .reportCardContainer {
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 768px) {
+  .reportCardContainer {
+    width: 80%;
+  }
+
+  .reportCard {
+    width: 100%;
+    margin-bottom: 2%;
+  }
+}
+
+@media (max-width: 480px) {
+  .reportCard {
+    padding: 5%;
+  }
+
+  .reportAvatar {
+    width: 40%;
+  }
+
+  .reportCard a {
+    padding: 1%;
+  }
+}

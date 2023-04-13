@@ -1,0 +1,9 @@
+.plusContainer{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.plusSign{
+    color: red;
+}

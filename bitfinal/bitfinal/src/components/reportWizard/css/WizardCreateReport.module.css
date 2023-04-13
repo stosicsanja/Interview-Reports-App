@@ -1,0 +1,68 @@
+.holder{
+    width: 80%;
+    margin: auto;
+}
+
+.rightSide{
+    width: 60%;
+    float: right;
+    border-left: 2px solid black;
+}
+
+.leftSide{
+    float: left;
+    width: 38%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ListHolder{
+    font-size: 1.5em;
+    list-style: none;
+    margin: auto;
+}
+
+.ListHolder:hover{
+    background-color: whitesmoke;
+    cursor:default;
+}
+
+.present{
+    padding-top:25% ;
+}
+
+@media (max-width: 768px) {
+    .holder{
+      width: 100%;
+    }
+  
+    .rightSide{
+      width: 100%;
+      float: none;
+      border-left: none;
+    }
+  
+    .leftSide{
+      float: none;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .ListHolder{
+      font-size: 1.2em;
+      font-weight: bold;
+      padding: 1em;
+      margin: 0;
+    }
+  
+    .ListHolder:hover{
+      background-color: whitesmoke;
+      cursor: pointer;
+    }
+  
+    .present{
+      padding-top: 5%;
+    }
+}  

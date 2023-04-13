@@ -1,0 +1,14 @@
+.selectCompany{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.renderHolder{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+}
+

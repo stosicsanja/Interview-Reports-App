@@ -1,0 +1,50 @@
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(50%) scale(0.8) rotate(-10deg);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1) rotate(0deg);
+    }
+}
+
+
+
+.holder{
+    width: 80%;
+    margin: auto;
+    animation: fade-in 1.5s ease-in-out forwards;
+}
+
+.rightSide{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 -1%;
+    width: 80%;
+    float: right;
+    border-left: 2px solid black;
+
+}
+
+.buttonHolder{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 2%;
+    border-top: 2px solid #00CFFF;
+}
+
+
+@media (max-width: 768px) {
+    .holder {
+      width: 100%;
+    }
+  
+    .rightSide {
+      width: 100%;
+      border-left: none;
+    }
+}  
+
