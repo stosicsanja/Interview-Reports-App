@@ -16,10 +16,13 @@ Only if the Candidate has passed the current phase, a report for the next phase 
 Candidates and Interview Reports overview
 
 -List of Candidates (landing page)
+
 -Candidate Reports Page
 
 Administrative Panel
+
 -Report List
+
 -Submit Report Page
 
 IMPLEMENTATION
